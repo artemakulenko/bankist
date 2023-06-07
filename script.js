@@ -81,7 +81,7 @@ createUsernames(accounts);
 
 // Timer 5min
 const startLogOutTimer = () => {
-  let time = 20;
+  let time = 300;
 
   const tick = () => {
     const minutes = String(Math.trunc(time / 60)).padStart(2, '0');
